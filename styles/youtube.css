@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+
+#top {
+    background: greenyellow;
+    display: grid;
+    grid-template-rows: 20px 20px;
+}
+#suggestions {
+    background: pink;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr;
+    height: 400px;
+    width: 750px;
+}
+#tool-bar {
+    background: darkblue;
+    display: grid;
+}
+.sugg-list {
+    background-color: blueviolet;
+    display: grid;
+}
+td {
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+}
+#shorts {
+    background: orangered;
+    display: grid;
+}
