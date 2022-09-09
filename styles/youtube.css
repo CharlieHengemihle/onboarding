@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: 95px 1fr;
 }
 
 #upper-main {
@@ -23,10 +23,22 @@ body {
 }
 #tool-bar {
     background: darkblue;
+    display: grid;
+    grid-template-rows: repeat(6, 50px/75px);
+    border: 2px solid black;
+}
+#buttons {
+    background: gray;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 75px;
+    height: 30px;
+    font-size: small;
 }
 li {
     display: inline;
     font-weight: bolder;
+    border: 1px solid blue;
 }
 .sugg-list {
     background-color: blueviolet;
